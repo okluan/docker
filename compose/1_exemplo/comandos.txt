@@ -1,0 +1,11 @@
+django-admin startproject project .
+
+docker build -t django_docker . 
+
+docker run -d -p 8000:8000 django_docker
+
+https://www.youtube.com/watch?v=bldOLqAAqos
+
+docker kill $(docker ps -q)
+
+
