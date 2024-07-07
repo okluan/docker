@@ -1,0 +1,5 @@
+docker-compose build
+docker-compose up
+
+https://www.youtube.com/watch?v=czu1ThQK3Tk&t=667s
+
